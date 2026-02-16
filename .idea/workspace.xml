@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e3defae-1373-4d85-9de0-b38914aaa921" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/ScoringAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/MatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/PlayerStatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/ScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/TeamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/impl/MatchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/impl/PlayerStatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/impl/ScoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/Service/impl/TeamServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/controller/MatchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/controller/ScoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/repsonse/MatchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/repsonse/PlayerStatResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/repsonse/ScoreResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/repsonse/ScorecardResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/repsonse/TeamResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/request/CreateMatchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/dto/request/UpdateScoreRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/MatchStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/PlayerStat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/MatchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/PlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/PlayerStatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/ScoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/TeamMembershipRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/TeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/java/in/crewplay/scoring_app/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/test/java/in/crewplay/scoring_app/ScoringAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/src/test/java/in/crewplay/scoring_app/SpringBootTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/ScoringAppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/Match.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/MatchStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/PlayerStat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crewplay-backend/target/classes/in/crewplay/scoring_app/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/repomix-output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/Controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/DTO/Request/RequestOtpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/DTO/Request/StartJourneyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/DTO/Request/VerifyOtpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/filter/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/service/OtpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/util/JwtTokenParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Auth/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/CrewplayBackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Scorer/Controller/ScorerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Scorer/Repository/ScorerProfileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/Scorer/Service/ScorerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/common/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/common/enums/MatchStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/common/enums/PlayerAddMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/common/enums/PlayingRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/common/enums/TeamVisibility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/BallType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/BattingHand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/BowlingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/MatchSquadMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/MatchStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/MatchTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/MatchType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/PitchType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/TossDecision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/controller/MatchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/controller/MatchRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/controller/MatchSpecsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/controller/TossController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/AssignSquadRolesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/MatchSpecsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/SquadPlayerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/SquadRoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/SubmitSquadRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/dto/TossRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/InningsStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/MatchInnings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/controller/InningsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/dto/InningsContextResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/dto/InningsPlayerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/dto/InningsTeamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/dto/StartInningsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/repository/MatchInningsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/innings/service/InningsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/repository/MatchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/repository/MatchSquadMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/repository/MatchTeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/controller/ScoringController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/BowlerScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/BowlerSelectionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/EndOverResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/LiveScoreResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/PlayerScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/PlayerSelectionDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/ScoreBallRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/ScoreBallResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/dto/WicketRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/entity/BallEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/entity/FallOfWicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/entity/WicketDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/enums/BallResultType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/enums/ExtraType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/enums/WicketType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/repository/BallEventRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/repository/FallOfWicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/scoring/service/ScoringService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/service/MatchRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/service/MatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/service/MatchSpecsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/service/TossService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/MatchVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/MatchVerificationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/controller/MatchVerificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/dto/VerificationContextResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/dto/VerificationPlayerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/dto/VerificationTeamDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/repository/MatchVerificationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/match/verification/service/MatchVerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/team/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/team/TeamMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/team/TeamPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/team/enums/TeamStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/team/repository/TeamPlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/ExperienceLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/PlayerProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/PlayingRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/ScorerProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/TeamManagerProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/UserFollow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/domain/user/repository/UserRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/Controller/MatchSetupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/Repository/MatchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/Repository/MatchSquadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/Service/MatchSetupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/dto/request/CreateQuickMatchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/dto/request/SelectSquadRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/dto/request/SelectTeamRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/match_setup/dto/response/MatchSetupResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/Controller/TeamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/Repository/TeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/Service/TeamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/dto/request/CreateTeamRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/dto/request/VerifyCaptainRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/dto/response/TeamResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team/util/TeamCodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/Controller/TeamRosterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/Repository/TeamMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/Service/TeamRosterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/dto/request/AddGuestPlayerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/dto/request/AddPlayerByMobileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/java/in/crewplay/crewplay_backend/team_roster/dto/response/TeamMemberResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-backend-main (1)/my-backend-main/src/test/java/in/crewplay/crewplay_backend/CrewplayBackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/ScoringAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/Service/impl/Scorer/ScorerProfileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/controller/Scorer/ScorerProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/dto/request/ScorerRequest/UpdateScorerProfileRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/dto/response/ScorerReponses/ScorerProfileResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/AssignmentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/BallEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/ExtraType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/Innings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/InningsStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/MatchPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/MatchRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/MatchStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/PaymentRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/PaymentStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/PlayerMatchStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/PlayerStat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/ScorerAssignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/ScorerProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/TeamInningsScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/TeamPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/TeamRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/TossDecision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/VerificationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/entity/WicketType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/MatchRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/PlayerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/PlayerStatRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/ScoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/TeamMembershipRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/TeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/in/crewplay/scoring_app/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/Integrity/integrity_illegal_balls.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/Integrity/mismatch_runs_check.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/Integrity/missig_player_stats.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/batting_metric/batting_boundary_percentage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/batting_metric/batting_impact_score.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/batting_metric/batting_not_out_rate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/batting_metric/batting_strike_rate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/bowling_metrics/bowling_economy.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/bowling_metrics/bowling_top_wicket_takers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/bowling_metrics/dot_ball_percentage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/fielding_metrics/Fielding_Impact_Score.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/kpi_metrics/kpi_matches_completed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/kpi_metrics/kpi_matches_played_per_player.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/kpi_metrics/kpi_team_run_rate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/12_match_competitiveness.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/extras_breakdown.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/match_phase_comparison.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/match_run_rate_by_over.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/match_wickets_timeline.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/match_flows/wicket_timeline.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/matches_played_per_player.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/player_consistency.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/player_strike_rate.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/player_top_scorers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/players_with_zero_contribution.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/player_metrics/pressure_performance.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/chase_efficiency.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/match_run_distribution.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/team_contribution_match.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/team_extras_percentage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/team_run_contribution_percentage.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/database/team_metrics/team_strength_over_time.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/in/crewplay/scoring_app/ScoringAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/in/crewplay/scoring_app/SpringBootTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yuvaraj-17&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/crewplay-tech/Back-end.git&quot;,
+    &quot;accountId&quot;: &quot;646d0741-ebc4-4907-b375-e85607e04186&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="39cvqEGBGqEpjhYDSDNWgFJCCaI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.crewplay-backend [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crewplay-backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crewplay-backend [org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crewplay-backend [org.apache.maven.plugins:maven-clean-plugin:3.4.1:help].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CrewplayBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;yuvaraj's-backend&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="in.crewplay.crewplay_backend.team_manager.Service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CrewplayBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="crewplay-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="in.crewplay.crewplay_backend.CrewplayBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e3defae-1373-4d85-9de0-b38914aaa921" name="Changes" comment="" />
+      <created>1771008362800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771008362800</updated>
+      <workItem from="1771008364680" duration="2175000" />
+      <workItem from="1771039758967" duration="31785000" />
+      <workItem from="1771128218399" duration="37378000" />
+      <workItem from="1771212194667" duration="3122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

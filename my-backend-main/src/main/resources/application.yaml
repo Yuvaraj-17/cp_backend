@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crewplay
+    username: crewplay
+    password: crewplay
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+
+  redis:
+    port: 6379
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your_email@gmail.com
+    password: your_app_password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  data:
+    redis:
+      host: localhost
+
+jwt:
+  # This secret MUST be at least 32 characters for HS256
+  secret: crewplay-super-secret-key-must-be-long-enough-32chars
+  expiration: 86400000 # 1 day
